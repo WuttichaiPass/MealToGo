@@ -16,7 +16,7 @@ export default function App() {
             onChangeText={onChangeSearch}
             value={searchQuery}
           />
-        </View>
+        </View>   
         <View style={{ flex: 1, padding: 16, backgroundColor: "#7fff00" }}>
           <Text>list</Text>
         </View>
@@ -24,7 +24,7 @@ export default function App() {
       <ExpoStatusBar style="auto" />
     </>
   );
-}
+} 
 
 const styles = StyleSheet.create({
   container: {
